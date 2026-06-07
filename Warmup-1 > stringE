@@ -1,0 +1,3 @@
+public boolean stringE(String str) {
+    int c = str.length() - str.replace("e", "").length(); return c >= 1 && c <= 3;
+}
